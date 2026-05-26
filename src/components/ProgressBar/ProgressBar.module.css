@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.barWrapper {
+  flex: 1;
+  height: 12px;
+  background-color: var(--color-border);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.bar {
+  height: 100%;
+  border-radius: 999px;
+  transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+.bar.danger {
+  background-color: var(--color-danger);
+}
+
+.bar.warning {
+  background-color: var(--color-warning);
+}
+
+.bar.info {
+  background-color: var(--color-info);
+}
+
+.bar.success {
+  background-color: var(--color-success);
+}
+
+.persentase {
+  font-size: 0.875rem;
+  font-weight: 600;
+  min-width: 45px;
+  text-align: right;
+}
+
+.persentase.danger {
+  color: var(--color-danger);
+}
+
+.persentase.warning {
+  color: var(--color-warning);
+}
+
+.persentase.info {
+  color: var(--color-info);
+}
+
+.persentase.success {
+  color: var(--color-success);
+}

@@ -1,0 +1,17 @@
+.app {
+  min-height: 100vh;
+  background-color: var(--color-bg);
+  transition: background-color 0.3s ease;
+}
+
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+}
+
+@media (max-width: 768px) {
+  .main {
+    padding: 1rem 0.75rem;
+  }
+}

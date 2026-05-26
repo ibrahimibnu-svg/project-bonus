@@ -1,0 +1,25 @@
+.daftar {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.empty {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: var(--color-card-bg);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.emptyText {
+  font-size: 1.125rem;
+  color: var(--color-text);
+  margin: 0 0 0.5rem 0;
+}
+
+.emptyHint {
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+  margin: 0;
+}
